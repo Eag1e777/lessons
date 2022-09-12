@@ -1,0 +1,84 @@
+header p {
+	color: lightsalmon;
+}
+
+h1{
+	color: rgb(234, 228, 50);
+}
+
+h4 {
+	color: rgb(215, 148, 197);
+
+}
+
+
+.block__1 ul li {
+ color: rgb(149, 9, 9);
+}
+
+
+.block__1 ol li{
+	color: rgb(62, 197, 21);
+} 
+
+.block__2 p {
+ color: orangered;
+}
+
+.img__1 {
+	color: rgb(212, 255, 0);
+}
+
+
+#kievo__pecherskaya {
+	color: rgb(0, 136, 255);
+}
+
+#deribasovskaya__ylica{
+	color: rgb(175, 128, 67);
+}
+
+.block__2 ul li{
+	color: rgb(12, 138, 138);
+}
+
+#hotinskaya_krepost {
+	color: darksalmon;
+}
+
+.block__3 > p {
+	color: rgb(170, 0, 255);
+}
+
+.img__2 {
+	color: darkseagreen;
+}
+
+#sobor__svyatoi__sofii{
+	color: goldenrod;
+}
+
+.img__4 {
+	color: darkgrey;
+}
+
+#tonel_lyubvi {
+	color: fuchsia;
+}
+
+.block__5 p {
+	color: rgb(187, 9, 9);
+}
+
+footer {
+	color: olive;
+}
+
+.block__4 * {
+	color: rgb(5, 186, 116);
+}
+
+main a {
+	color: rgb(210, 16, 228);	
+}
+
