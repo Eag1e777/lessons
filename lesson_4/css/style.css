@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
-
 
 @font-face {
 	font-family: "Larsseit";
@@ -34,7 +32,7 @@
 @font-face {
 	font-family: "Lato";
 	src: url("../fonts/Lato-Regular.woff2") format("woff2"),
-	url("../fonts/Larsseit_regular.woff") format("woff");
+	url("../fonts/Lato_regular.woff") format("woff");
 	font-display: swap;
 	font-style: normal;
 	font-weight: 400;
@@ -43,7 +41,7 @@
 @font-face {
 	font-family: "Larsseit";
 	src: url("../fonts/Lato-Bold.woff2") format("woff2"),
-	url("../fonts/Larsseit-Bold.woff") format("woff");
+	url("../fonts/Lato-Bold.woff") format("woff");
 	font-display: swap;
 	font-style: normal;
 	font-weight: 700;
