@@ -1,0 +1,311 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+/* font-family: 'Montserrat', sans-serif; */
+
+
+@font-face {
+	font-family: 'LeoHand';
+	src: url('../fonts/LeoHand-Light.woff2') format('woff2'),
+		 url('../fonts/LeoHand-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'Ustroke_1';
+	src: url('../fonts/Ustroke-Regular.woff2') format('woff2'),
+		 url('../fonts/Ustroke-Regular.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'DOCKER TWO';
+	src: url('../fonts/DOCKERTWO.woff2') format('woff2'),
+		 url('../fonts/DOCKERTWO.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Tchekhonin2';
+	src: url('../fonts/Tchekhonin2.woff2') format('woff2'),
+		 url('../fonts/Tchekhonin2.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Graffiti3CTT';
+	src: url('../fonts/Graffiti3CTT-Regular.woff2') format('woff2'),
+		 url('../fonts/Graffiti3CTT-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'Country Western Swing';
+	src: url('../fonts/CountryWesternSwing.woff2') format('woff2'),
+		 url('../fonts/CountryWesternSwing.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+body {
+	margin: 0px auto;
+	max-width: 900px;
+	background: rgb(254,255,6);
+	background: linear-gradient(90deg, rgba(254,255,6,0.30885857761073177) 2%, rgba(40,188,231,0) 44%, rgba(2,183,240,0.37888658881521353) 96%);
+}
+
+
+.header {
+}
+.header__body {
+}
+.header__header {
+	color: rgb(127, 98, 12) ;
+	text-align: center;
+	font-family: 'LeoHand';
+	font-weight: 300;
+	font-size: 30px;
+	
+
+}
+
+
+
+ .header__text p {
+	font-family: 'Ustroke_1';
+	font-weight: 300;
+	color: rgb(106, 28, 113);
+	margin: 0px 0px 10px 0px;
+
+
+}
+
+
+.header__text ul li {
+	font-family: 'LeoHand';
+	font-weight: 900;
+	list-style: square;
+	font-size: 24px;
+	margin: 0px 0px 5px 20px;
+}
+
+.header__img-1{
+	margin: 10px 0px 10px 0px;
+}
+
+.header__text ul li:nth-child(2) {
+	text-decoration: overline	;
+}
+
+.header__text ul li:nth-child(3) {
+	text-decoration: underline	;
+}
+
+.header__text ul li:nth-child(4) {
+	text-transform: uppercase	;
+}
+
+
+.header__img-2 {
+	margin: 10px 0px 10px 0px;
+}
+
+
+
+
+
+
+
+
+.content {
+}
+.content__body {
+}
+.content__h2 {
+	text-align: center;
+	margin: 20px 0px 10px 0px;
+	font-family: 'LeoHand';
+	font-weight: 300px;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: rgb(102, 195, 230);
+	
+}
+.content__text p {
+	font-family: 'DOCKER TWO';
+	font-weight: 900px;
+	color: rgba(238, 61, 223, 0.892);
+	text-decoration: line-through;
+	
+	
+}
+
+.content__text p:nth-child(2) {
+	color: red;
+}
+
+.content__img-1 {
+	margin: 10px 0px 10px 0px;
+
+}
+.content__text-p p {
+	color: rgb(6, 208, 114);
+	margin: 0px 0px 10px 0px;
+	text-decoration: overline;
+}
+
+
+.content__img-1 {
+}
+.content__img-2 {
+	margin: 0px 0px 10px 0px;
+
+}
+
+
+
+
+
+
+.conteiner__text {
+	
+	
+}
+.container__body {
+}
+.container__h2 {
+	text-align: center;
+	font-family: 'LeoHand';
+	font-weight: 400;
+	font-size: 30px;
+	color: rgb(182, 106, 6);
+
+
+}
+.container__text ol li {
+	list-style: georgian outside;
+	line-height: 20px;
+	font-family: 'Tchekhonin2';
+	font-weight: 400;
+	
+}
+
+.container__text ol li:first-child{
+	color: rgb(247, 136, 155);
+}
+
+.container__text ol li:last-child{
+	color: rgb(144, 247, 136);
+	
+}
+
+.container__text ol li:nth-child(3){
+	color: rgb(170, 127, 255);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+
+.container__text ol li:nth-child(5){
+	color: rgb(15, 102, 133);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+
+.container__text ol li:nth-child(6){
+	color: rgb(15, 133, 102);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
+
+
+.container__text ol li:nth-child(2){
+	color: rgb(227, 116, 52);
+	font-family: 'Graffiti3CTT';
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+.content-second__p {
+	margin: 0px 0px 10px 0px;
+	text-align: right;
+	font-family: 'LeoHand';
+	font-weight: 400;
+	font-size: 40px;
+	color: rgba(255, 0, 128, 0.284);
+
+}
+
+.content-second p {
+	margin: 0px 0px 10px 10px;
+
+}
+.content-second__body {
+}
+.content-second__h2 {
+	text-align: right;
+	font-family: 'DOCKER TWO';
+	font-weight: 400;
+	color: blueviolet;
+	font-size: 40px;
+	margin: 0px 0px 10px 0px;
+}
+.content-second__img img {
+width: 1000px;
+margin: 0px 0px 10px 0px;
+}
+.content-second__text {
+	font-family: 'Country Western Swing';
+	font-weight: 400;
+	font-size: 30px;
+
+}
+
+.content-second__text ul li {
+	list-style: disc;
+	margin: 0px 0px 0px 30px;
+	color: burlywood;
+	text-decoration: underline;
+}
+
+.content-second__text p:first-child {
+	color: cadetblue;
+}
+
+.content-second__text p:nth-child(3) {
+	color: brown;
+}
+
+.content-second__text p:nth-child(4) {
+	color: rgb(165, 132, 42);
+	line-height: 30px;
+	text-decoration: line-through;
+}
+
+.content-second__text p:nth-child(5) {
+	text-indent: 20px;
+	color: rgb(0, 255, 110);
+	text-transform: unset;
+}
