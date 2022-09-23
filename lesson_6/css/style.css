@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* font-family: 'Montserrat', sans-serif;  
+bold, regular, black*/
+
+
+body {
+	margin: 0px auto;
+	width: 810px;
+	height: 1594px;
+	font-family: 'Lato';
+	font-style: normal;
+}
+
+main {
+	text-align: left;
+}
+
+
+.header__h1 {
+	font-family: 'Lato';
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 59.8px;
+	height: 120px;
+	text-align: left;
+	margin: 0px 0px 40px 0px;
+
+}
+
+
+
+.header {
+	margin: 0px 0px 60px 0px;
+}
+
+
+
+.container__text {
+	margin: 0px 0px 20px 0px;
+}
+
+.container__text p {
+	font-family: 'Lato';
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: justify;
+	
+}
+
+
+.block__text p:nth-child(1) {
+	font-family: 'Lato';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	text-align: left;
+	margin: 0px 0px 30px 0px;
+}
+
+.block__text p:last-child {
+	font-family: 'Lato';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 25.6px;
+	text-align: left;
+}
+
+.block {
+	margin: 0px 0px 48px 0px;
+}
+
+
+.rule {
+	margin: 0px 0px 48px 0px;
+}
+
+.rule__text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: left;
+}
+
+
+.content-last__body-text {
+	margin: 0px 0px 24px 0px;
+}
+
+.content-last__body-text p {
+	font-size: 16px;
+	line-height: 25.6px;
+	font-weight: 400;
+}
+
+
+.content-last__body-text-list {
+	margin: 0px 0px 24px 0px;
+}
+
+.content-last__body-text-list ul li {
+	gap: 4px;
+	line-height: 25px;
+	
+}
+
+.span {
+	font-weight: 700;	
+}
+
+
+
+
+
+.content-last__body-row-rows {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25.6px;
+	margin: 0px 0px 30px 0px;
+}
+
+
+
+.training__button-1 {
+	width: 250px;
+	border: 4px solid rgb(161, 42, 216);
+	border-radius: 30px;
+	padding: 10px;
+	background-color: rgba(157, 61, 247, 0.221);
+	margin: 0px 120px 20px 0px;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: rgb(241, 147, 23);
+	text-align: center;
+	
+}					
+
+.training__button-1:hover {
+	margin-top: 3px;
+	box-shadow: 0 5px 0 rgb(161, 42, 216);
+} 
+
+				
+
+
+
+.box-text {
+	width: 500px;
+	background-color: rgb(43, 226, 165);
+	border-radius: 20px 30px 40px 10px;
+	padding: 20px;
+	border: 5px solid transparent;
+	box-shadow: 20px 30px 40px 50px rgba(149, 255, 0, 0.303);
+	
+
+}
+
+.box-text:hover {
+	border: 5px solid orange;
+}
+
+.box {
+	margin: 0px 0px 20px 0px;
+}
+.circle {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(43, 221, 15);
+	box-shadow: inset 60px 20px 60px lightcoral, 20px 0px 10px 10px rgb(240, 245, 81);
+}
+
+
+
+
+
+
