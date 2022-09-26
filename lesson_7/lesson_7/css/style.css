@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+
+
+
+body {
+	font-family: 'Lato';
+	font-style: normal;
+
+}
+
+
+.header {
+	margin: 20px 0px 40px 0px;
+}
+
+.header__title {
+	font-weight: 900;
+	font-size: 46px;
+}
+
+
+
+.image__text {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 0px 0px 24px 0px;
+	
+}
+
+.image-img {
+	margin: 0px 0px 60px 0px;
+}
+
+.text__double {
+	height: 182px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 25.6px;
+	margin: 0px 0px 48px 0px;
+	font-weight: 400;
+}
+
+
+.text__double p:nth-child(1) {
+	margin: 0px 0px 20px 0px;
+	
+}
+
+
+.rule {
+	
+	line-height: 30px;
+	margin: 0px 0px 48px 0px;
+	background-image: url('../img/braces.jpg');
+	background-repeat: no-repeat;
+	background-position: 24% 6%;
+	
+}
+
+.rule__text {
+	margin: 0px 0px 0px 58px;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: 'Lato';
+	font-style: normal;
+	
+}
+
+[class*="__container"]{
+	max-width: 810px;
+	margin: 0px auto;
+}
+
+
+
+
+.list {
+	line-height: 25.6px;
+}
+
+.list__text {
+	margin: 0px 0px 24px 0px;
+	font-size: 16px;
+	
+}
+
+
+.list__u {
+	margin: 0px 0px 24px 0px;
+	
+}
+
+.list__ul li {
+	background-image: url('../img/check.svg');
+	background-repeat: no-repeat;
+	background-position: 0% 50%;
+	padding: 0px 0px 0px 30px;
+	
+}
+
+.list__content {
+	margin: 0px 0px 24px 0px;
+}
+
+
+.box__picture img {
+	width: 800px;
+	margin: 0px 0px 20px 0px;
+
+}
+
+.box__pct {
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+}
+
+
+
+
+.box__picture-2 {	
+	background-image: url('../img/heart_2.jpg');
+	background-repeat: no-repeat;
+	height: 1000px;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.box__picture-3 {
+	background-image: url('../img/heart_3.jpg');
+	height: 700px;
+	width: 1000px;
+	background-repeat: no-repeat;
+	background-position: 20% 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
