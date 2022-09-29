@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+	font-family: 'Lato';
+	font-style: normal;
+	color: #1E212C;
+	
+
+}
+
+.header {
+	margin: 0px 0px 48px 0px;
+}
+
+[class*="__container" ]{
+	max-width: 810px;
+	margin: 0 auto;
+	}
+
+
+
+.header__title p {
+	line-height: 130%;
+	font-size: 46px;
+	color: #1E212C;
+}
+
+
+.header__title {
+	margin: 0px 0px 40px 0px;
+}
+
+
+
+.header__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+}
+
+
+
+.page__title p {
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 150%;
+	color: #1E212C;
+}
+
+.page__title {
+	margin: 0px 0px 24px 0px;
+}
+
+.page__list {
+	margin: 0px 0px 40px 0px;
+}
+
+.page__list ul li {
+	background-image: url('../img/check.svg');
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+	padding: 0px 0px 0px 32px;
+	color: #424551;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	min-height: 35px; 
+}
+
+
+
+.block {
+
+}
+
+.block__course {
+	margin: 0px 0px 6px 0px;
+}
+
+.block__course p {
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 150%;
+}
+
+
+.block__title p {
+	color: #1E212C;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+}
+
+.block__title {
+	margin: 0px 16px 0px 0px;
+}
+
+
+
+
+.block__p {
+	color: #787A80;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.block__senoir {
+	margin: 0px 0px 32px 0px;
+}
+
+
+
+.block__list ul li {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+	min-height: 35px; 
+}
+
+.block__list ul li:nth-child(1) {
+	background-image: url('../img/Star.svg');
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding: 0px 0px 0px 24px; 
+}
+
+.block__list ul li:nth-child(2) {
+	background-image: url('../img/Play.svg');
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding: 0px 0px 0px 24px;
+}
+
+.block__list ul li:nth-child(3) {
+	background-image: url('../img/Profile.svg');
+	background-repeat: no-repeat;
+	background-position: 0px 5px;
+	padding: 0px 0px 0px 24px;
+}
+
+.block__list {
+	margin: 0px 0px 32px 0px;
+}
+
+
+.block__text p{
+	color: #424551;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+}
+
+
+.block__text {
+	margin: 0px 0px 40px 0px;
+}
+
+.footer ul li {
+	display: inline-block;
+	min-height: 35px; 
+	
+}
+
+.footer ul li:nth-child(1) {
+	background-image: url('../img/Facebook.svg');
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 24px;
+	width: 24px;
+	margin: 0px 24px 0px 0px;
+	
+}
+
+.footer ul li:nth-child(2) {
+	background-image: url('../img/behance.svg');
+	height: 24px;
+	width: 24px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	margin: 0px 24px 0px 0px;
+}
+
+.footer ul li:nth-child(3) {
+	background-image: url('../img/Twitter.svg');
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 24px;
+	background-position: 0px 0px;
+	margin: 0px 24px 0px 0px;
+}
+
+.footer ul li:nth-child(4) {
+	background-image: url('../img/Linked-In.svg');
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	height: 24px;
+	width: 24px;
+	margin: 0px 24px 0px 0px;
+}
+
+.footer {
+	margin: 0px 0px 50px 0px;
+}
+
+
+
+
+
+
+.training__hover {
+	font-size: 20px;
+	height: 20px;
+	margin: 0px 0px 10px 0px;
+
+}
+
+.training__hover:hover  {
+	color: orange;
+	
+}
+
+
+
+.training__visability {
+	font-size: 20px;
+	visibility: visible;
+	opacity: 1;
+
+}
+
+.training__opacity {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.training__active {
+	font-size: 20px;
+	margin: 0px 0px 10px 0px;
+}
+
+.training__active a:active {
+	color: red;
+}
+
+.training__visited {
+	font-size: 20px;
+	text-decoration: underline;
+	margin: 0px 0px 10px 0px;
+}
+
+.training__visited a:visited li{
+	color: red;
+}
+
+.training__focus {
+	font-size: 20px;
+}
+
+.training__focus a:focus {
+	outline: 1px solid red;
+}
+
+
+
+.training__body {
+	margin: 0px 0px 20px 0px;
+}
+
+/* .sport p {
+	margin: 0px 0px 20px 0px;
+	
+} */
+
+.sport p:not(:first-child) {
+	margin-bottom: 20px;
+} 
+
+.sport p:first-child {
+	text-transform: uppercase;
+}
+
+.sport p:last-of-type {
+	text-transform: uppercase;
+}
+
+.sport-second p {
+	margin: 0px 0px 20px 0px;
+}
+
+
+.sport-second>*:last-child {
+	margin-bottom: 0px;
+}
+
+.sport-second p:first-child::before {
+	content: "(";
+}
+
+.sport-second p:first-child::after {
+	content: ")";
+}
+
