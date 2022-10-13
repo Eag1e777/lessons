@@ -1,0 +1,167 @@
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"),
+	url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"),
+	url("../fonts/Lato-Bold.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Black.woff2") format("woff2"),
+	url("../fonts/Lato-Black.woff") format("woff");
+	font-display: swap;
+	font-style: normal;
+	font-weight: 900;
+}
+
+
+
+
+
+
+
+
+body {
+	font-family: "Lato";
+}
+
+
+
+
+[class*="__container" ] {
+	max-width: 810px;
+	margin: 0px auto;
+	}
+
+	[class*="__conteiner" ] {
+		max-width: 1240px;
+		margin: 0px auto;
+		text-align: center;
+		}
+
+
+
+	.content__header {
+		margin: 0px 0px 92px 0px;
+	}
+
+
+
+
+	.content__header h1 {
+	text-align: left;
+	color: #1E212C;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	}
+
+	.content__img {
+		margin: 0px 0px 60px 0px;
+	}
+
+	.block__text {
+		margin: 0px 0px 24px 0px;
+	}
+
+
+
+	.block__text p {
+		color: #1E212C;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 150%;
+	}
+
+
+	.block__double p {
+		color: #424551;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 160%;
+	}
+
+	.block__double-p {
+		margin: 0px 0px 40px 0px;
+	}
+
+	.block__double {
+		margin: 0px 0px 48px 0px;
+	}
+
+	.block__rule {
+		margin: 0px 0px 48px 0px;
+	}
+
+	.block__rule p {
+		background-image: url('../img/braces.svg');
+		background-repeat: no-repeat;
+		background-position: ;
+		padding-left: 58px;
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 150%;
+		color: #1E212C;
+	}
+
+
+
+	.content__items {
+		margin: 0px 0px 24px 0px;
+	}
+
+
+	.content__items p {
+		margin: 0px 0px 24px 0px;
+	}
+
+	.content__items p {
+		color: #424551;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 160%;
+	}
+
+
+	.content__items ul li:not(:last-child) {
+		margin: 0px 0px 4px 0px;
+		
+	}
+
+	.content__items ul li {
+		background-image: url('../img/tick.svg');
+		background-repeat: no-repeat;
+		padding-left: 30px;
+		background-position: 0% 40%;
+		color: #424551;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 160%;   
+	}
+
+	.content__items-list {
+		margin: 0px 0px 24px 0px;
+	}
+
+
+
+	.content__items a {
+		color: rgb(208, 127, 255);
+		font-size: 24px;
+	}
+
+
+
+
+
