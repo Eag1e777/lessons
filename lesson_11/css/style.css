@@ -1,0 +1,115 @@
+body {
+	/* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-image: url('../img/1643942826_35-abrakadabra-fun-p-fon-doroga-dlya-detei-45.jpg');	
+	background-repeat: no-repeat;
+	background-size: 100%; */
+	
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-image: url('../img/1643942826_35-abrakadabra-fun-p-fon-doroga-dlya-detei-45.jpg');	
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 100%;
+	
+	
+}
+
+
+
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+}
+
+.main {
+	height: 800px;
+
+
+}
+
+.main__container {
+	width: 1240px;
+	margin: 0px auto;
+}
+
+
+
+/* .car {
+	background-image: url('../img/car.png');
+	z-index: 100;
+} */
+
+
+
+
+
+
+.car-part__1 img{
+
+	position: relative;
+	left: 400px;
+	top: 500px;
+
+
+}
+
+.car-part__2 img {
+	position: relative;
+	left: 460px;
+	top: 318px;
+}
+
+.car-part__3 img {
+	position: relative;
+	left: 610px;
+	top: 76px;
+	z-index: 2;
+	
+}
+
+.car-part__4 img {
+	position: relative;
+	left: 797px;
+	bottom: 90px;
+}
+
+.car-part__5 img {
+	position: relative;
+	bottom: 489px;
+	left: 580px;
+}
+
+
+.car-part__6 img {
+	position: relative;
+	bottom: 490px;
+	left: 950px;
+}
+
+.car-part__7 img {
+	position: relative;
+	bottom: 828px;
+	left: 581px;
+	z-index: 1;
+}
+
+.car-part__8 img {
+	width: 420px;
+	height: 380px;
+	position: relative;
+	bottom: 1030px;
+	left: 460px;
+	
+}
+
+.car-part__7 img {
+	opacity: 1;
+	transition: all 120s;
+}
+
+.car-part__7 img:hover {
+	opacity: 0 ;
+	transform: translate(0px, 100px);
+	transition: all 15s;
+}
+
