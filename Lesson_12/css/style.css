@@ -1,0 +1,336 @@
+body {
+	background: rgb(219,237,242);
+	background: linear-gradient(90deg, rgba(219,237,242,0) 17%, rgba(173,194,241,0.26404065043986347) 54%, rgba(231,226,187,0.1856092778908438) 93%);
+}
+
+
+
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	margin: 20px 0px 0px 20px;
+	line-height: 120%;
+	
+}
+
+.wrapper__title {
+	margin: 10px 0px 40px 0px;
+}
+
+
+.wrapper__title p {
+	color: rgb(235, 209, 168);
+	font-weight: bold;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+.wrapper__title span{
+	font-size: 32px;
+}
+
+
+
+[class*="__container" ] {
+	min-width: 1230px;
+	}
+
+
+	.text {
+		width: 800px;
+		margin: 0px 0px 0px 80px;
+	}
+
+
+
+
+
+
+
+
+
+.content {	
+	width: 250px;
+	height: 250px;
+	background-color: rgb(116, 117, 115);
+	margin: 0px 0px 80px 0px;
+}
+
+
+.content__row {
+	display: flex;
+	margin: 0px 0px 40px 0px;
+}
+
+
+.content__body {
+	width: 250px;
+	height: 250px;
+	background-color: rgb(10, 239, 52);
+	opacity: 0.6;
+	/* transform: translate(50px, 50px); */
+
+}
+
+
+.content__body:hover {
+	transform: translate(50px, 50px);
+	transition: all 1s;
+}
+
+
+
+
+.content__text   {
+	width: 800px;
+
+}
+
+.block-1__title {
+	text-align: center;
+
+}
+
+
+
+
+
+.title {
+	margin: 0px 0px 5px 0px;
+}
+
+.title h2 {
+	color: rgb(235, 209, 168);
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.content__text p span {
+	background-color: aquamarine;
+}
+
+
+
+
+
+
+
+.block-1 {
+	margin: 0px 0px 40px 0px;
+	width: 250px;
+	height: 250px;
+	background-color: gray;
+}
+
+.block-1__body {
+	width: 250px;
+	height: 250px;
+	background-color: orange;
+	opacity: 0.6;
+
+}
+
+.block-1__body:hover {
+	transform: scale(0.5, 1);
+	transition: all 1s;
+}
+
+
+.conten .content__text {
+	margin: 0px 0px 40px 0px;
+} 
+
+.block-1__row {
+	display: flex;
+}
+
+.block-1__text ul {
+	display: inline-block;
+}
+
+
+.block-1__text ul li span {
+	background-color: rgb(11, 237, 253);
+}
+
+
+
+
+
+
+
+.block-2 {
+	width: 250px;
+	height: 250px;
+	background-color: gray;
+	margin: 0px 0px 40px 0px;
+}
+
+.block-2__body {
+	width: 250px;
+	height: 250px;
+	background-color: rgb(0, 200, 255);
+	opacity: 0.6;
+
+}
+
+.block-2__body:hover {
+	transform: rotate(-15deg);
+	transition: all 1s;
+}
+
+
+.conten .content__text {
+	margin: 0px 0px 40px 0px;
+} 
+
+.block-2__row {
+	display: flex;
+}
+
+.block-2__text ul {
+	display: inline-block;
+}
+
+
+.block-2__text ul li span {
+	background-color: rgb(180, 253, 11);
+}
+
+
+
+
+
+.block-3 {
+	width: 250px;
+	height: 250px;
+	background-color: gray;
+	margin: 0px 0px 40px 0px;
+}
+
+.block-3__body {
+	width: 250px;
+	height: 250px;
+	background-color: rgb(14, 246, 200);
+	opacity: 0.6;
+
+}
+
+.block-3__body:hover {
+	transform: skew(10deg, 5deg);
+	transition: all 1s;
+}
+
+
+.conten .content__text {
+	margin: 0px 0px 40px 0px;
+} 
+
+.block-3__row {
+	display: flex;
+}
+
+.block-3__text ul {
+	display: inline-block;
+}
+
+
+.block-3__text ul li span {
+	background-color: rgb(122, 165, 239);
+}
+
+
+
+
+
+
+
+
+
+.block-4 {
+	width: 250px;
+	height: 250px;
+	background-color: gray;
+	margin: 0px 0px 40px 0px;
+}
+
+.block-4__body {
+	width: 250px;
+	height: 250px;
+	background-color: rgb(103, 212, 248);
+	opacity: 0.6;
+
+}
+
+.block-4__body:hover {
+	transform: matrix(1.2, 0.1, 0, 1.2, 25, 25);
+	transition: all 1s;
+}
+
+
+.conten .content__text {
+	margin: 0px 0px 40px 0px;
+} 
+
+.block-4__row {
+	display: flex;
+}
+
+.block-4__text ul {
+	display: inline-block;
+}
+
+
+.block-4__text ul li span {
+	background-color: rgb(247, 157, 239);
+}
+
+
+
+
+
+.block-5 {
+	width: 250px;
+	height: 250px;
+	background-color: gray;
+	margin: 0px 0px 40px 0px;
+	transform-origin: top right;
+}
+
+
+
+
+.block-5__body {
+	width: 250px;
+	height: 250px;
+	background-color: rgb(178, 195, 246);
+	opacity: 0.6;
+	transform-origin: top right;
+}
+
+.block-5__body:hover {
+	transform:  rotate(50deg);
+	transform-origin: 100% 60%;
+	transition: all 1.5s;
+}
+
+
+.conten .content__text {
+	margin: 0px 0px 40px 0px;
+} 
+
+.block-5__row {
+	display: flex;
+}
+
+.block-5__text ul {
+	display: inline-block;
+}
+
+
+.block-5__text ul li span {
+	background-color: rgb(239, 242, 192);
+}
+

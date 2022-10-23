@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<title>Lesson_12</title>
+</head>
+
+<body>
+
+
+
+	<div class="wrapper">
+
+
+		<div class="wrapper__title">
+
+			<p><span>TRANSFORM</span>
+			</p>
+
+		</div>
+
+
+		<div class="content">
+
+
+
+
+
+			<div class="content__container">
+
+
+
+				<div class="content__row">
+
+
+
+
+					<div class="content__body">
+
+
+
+					</div>
+
+
+					<div class="content__text text">
+
+						<div class="content__title title">
+							<h2>Transtale</h2>
+						</div>
+
+
+						<p>Данное свойство помогает нам двигать элементы, при этом не влияя на поведение остальных
+							элементов.
+							Мы
+							можем, например, подвинуть блок на несколько пикселей ниже или в сторону. При этом, даже если
+							данный
+							блок заденет другой, то он не повлияет на его позицию, а просто будет отображаться поверх или
+							под
+							ним.
+							Ниже приведены несколько примеров и код к ним.
+							Данное свойсто двигает объект по оси X и Y. Если хотим
+							поставить блок на искосок, задаем отрицательное свойство.<br>
+
+							<span>
+								Пример кода CSS: <br>
+								transform: translateX(50px); <br>
+								transform: translateY(50px); <br>
+								transform: translate(-50px, -50px);<br>
+								Пример кода короткой записи: <br>
+								transform: translate(50px, 50px);
+							</span>
+
+
+
+
+						</p>
+
+
+
+					</div>
+
+
+
+
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+
+		</div>
+
+
+
+
+		<div class="block-1">
+
+
+			<div class="block-1__container">
+
+				<div class="block-1__row">
+
+					<div class="block-1__body">
+					</div>
+
+					<div class="block-1__text text">
+
+						<div class="block-1__title title">
+							<h2>Scale</h2>
+						</div>
+
+						<p>С помощью scale мы можем масштабировать блок, причем как увеличивать его, так и уменьшать. К
+							примеру, если в scale мы передадим 1.5, то мы увеличим блок в 1.5 раза. Если же мы передадим
+							0.5, то мы его уменьшим в половину. Так же вы можете масштабировать блок только по одной из
+							осей координат.</p>
+
+						<ul>
+							Ниже приведены несколько примеров и код к ним.
+							Данное свойсто двигает объект по оси X и Y.
+							Пример кода CSS:
+
+							<li><span>transform: scale(1.2);</span> </li>
+							<li><span>transform: scaleX(0.8);</span></li>
+							<li><span>transform: scaleY(1.1);</span> </li>
+							<li><span>transform: scale(1.2, 0.8);</span></li>
+						</ul>
+
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+		<div class="block-2">
+
+
+			<div class="block-2__container">
+
+				<div class="block-2__row">
+
+					<div class="block-2__body">
+					</div>
+
+					<div class="block-2__text text">
+
+						<div class="block-2__title title">
+							<h2>Rotate</h2>
+						</div>
+
+						<p>С помощью rotate мы можем повернуть выбранный элемент. Как и с предыдущим свойством — элемент,
+							который мы повернем, никак не повлияет на отображение соседнего контента.</p>
+
+						<ul>
+							Ниже приведены несколько примеров и код к ним.
+							Данное свойсто двигает объект по оси X и Y.
+							Пример кода CSS:
+
+							<li><span>transform: rotate(10deg);</span> </li>
+
+						</ul>
+
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+		<div class="block-3">
+
+
+			<div class="block-3__container">
+
+				<div class="block-3__row">
+
+					<div class="block-3__body">
+					</div>
+
+					<div class="block-3__text text">
+
+						<div class="block-3__title title">
+							<h2>Skew</h2>
+						</div>
+
+						<p>С помощью данного значения для css transform мы можем деформировать наш блок по одной из осей
+							координат, или же сразу по обеих. На словах сложно объяснить как именно это работает, так что лучше
+							сразу взгляните на примеры.</p>
+
+						<ul>
+							Ниже приведены несколько примеров и код к ним.
+							Данное свойсто двигает объект по оси X и Y.
+							Пример кода CSS:
+
+							<li><span>transform: skewX(20deg);</span> </li>
+							<li><span>transform: skewY(20deg);</span></li>
+							<li><span>transform: skew(20deg, 20deg);</span> </li>
+
+						</ul>
+
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+		<div class="block-4">
+
+
+			<div class="block-4__container">
+
+				<div class="block-4__row">
+
+					<div class="block-4__body">
+					</div>
+
+					<div class="block-4__text text">
+
+						<div class="block-4__title title">
+							<h2>Matrix</h2>
+						</div>
+
+						<p>С помощью matrix мы можем применить для нашего блока сразу несколько значений transfrom. Важно, что
+							мы не можем передать в matrix единицы измерения. Так же ключевую роль в данном примере играет
+							последовательность переданных значений. Порядок передачи значений такой: matrix( scaleX(), skewY(),
+							skewX(), scaleY(), translateX(), translateY() </p>
+
+						<ul>
+							<li><span> transform: matrix(1.2, 0.1, 0, 1.2, 25, 25);</span> </li>
+
+						</ul>
+
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+		<div class="block-5">
+
+			<div class="block-5__container">
+
+				<div class="block-5__row">
+
+					<div class="block-5__body">
+					</div>
+
+					<div class="block-5__text text">
+
+						<div class="block-5__title title">
+							<h2>Transform-origin</h2>
+						</div>
+
+						<p>С помощью данного css свойства мы можем определить ту точку, вокруг которой мы будем вращать
+							выбранный элемент с помощью rotate. По умолчанию значение свойства transform-origin равно center
+							center. То есть изначально блок крутится вокруг своего центра. Мы можем указать новую точку
+							вращения как через ключевые слова вроде top, left, bottom, right, center, так и через значения
+							вроде 50px или 30%.</p>
+
+						<ul>
+							<li><span> transform-origin: top left;</span> </li>
+							<li><span> transform-origin: 100px 100px;</span> </li>
+
+							<li><span> transform-origin: 110% 100%;</span> </li>
+						</ul>
+
+					</div>
+
+
+
+
+				</div>
+			</div>
+
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+		<!-- <div class="block-3">
+			<div class="block-3__container">
+				<div class="body">
+
+				</div>
+
+				<div class="block-3__text">
+					<p></p>
+					<ul>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+
+			</div>
+		</div> -->
+
+
+</body>
+
+</html>
