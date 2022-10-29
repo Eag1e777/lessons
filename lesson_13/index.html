@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<title>Lesson_13</title>
+</head>
+
+<body>
+
+
+
+	<div class="wrapper">
+
+
+		<div class="wrapper__title">
+
+			<p><span>TRANSITION</span>
+			</p>
+
+		</div>
+
+
+		<div class="content">
+
+
+
+
+
+			<div class="content__container">
+
+
+
+				<div class="content__row">
+
+
+
+
+					<div class="content__body">
+
+
+
+					</div>
+
+
+					<div class="content__text text">
+
+						<div class="content__title title">
+							<h2>transition-duration</h2>
+						</div>
+
+
+						<p>Переходы в CSS — это именно то, что помогает «вдохнуть жизнь» в неподвижную и скучную веб-страницу
+							и анимировать ее. <br>
+							transition-duration — определяет длительность анимации;<br>
+							Смена одних CSS-стилей другими через заданный промежуток времени и с
+							определенной
+							скоростью — это и есть задача свойства transition. Например, вы можете задавать скорость перехода
+							от обычного стиля элемента к стилю в состоянии наведенного курсора, который задается через уже
+							знакомый нам псевдокласс :hover. Значение transition задаем родителю<br>
+
+
+						<ul>
+							HTML
+							<li><span>.content__body {</span></li>
+							<li><span>width: 220px;</span></li>
+							<li> <span>height: 220px;</span></li>
+
+							<li><span>background-color: rgb(116, 117, 115);</span></li>
+							<li><span>margin: 0px 0px 80px 0px;</span></li>
+							<li><span>transition-duration: 1000ms;
+									}</span></li>
+
+
+							<li><span>.content__body:hover {</span></li>
+							<li><span>width: 250px;</span></li>
+							<li><span>background-color: aquamarine;</span></li>
+							<li><span>opacity: 0.6</span>
+								<span>}</span>
+							</li>
+						</ul>
+
+
+
+						<ul>
+
+							<li><span>Пример кода CSS:</span></li>
+
+
+							<li><span>transition-duration: 1s - результат будет один и тот же</span></li>
+
+
+							<li><span>transition: all 0.3s ease; - результат будет один и тот же</span></li>
+
+						</ul>
+
+
+
+
+
+
+
+						</p>
+
+
+
+					</div>
+
+
+
+
+
+
+
+				</div>
+
+
+
+			</div>
+
+
+
+		</div>
+
+
+
+
+		<div class="block-1">
+
+
+			<div class="block-1__container">
+
+				<div class="block-1__row">
+
+					<div class="block-1__body">
+					</div>
+
+					<div class="block-1__text text">
+
+						<div class="block-1__title title">
+							<h2>transition-property</h2>
+						</div>
+
+						<p> Содержит название CSS-свойств, к которым будет применен эффект перехода. Значение свойства может
+							содержать как одно свойство, так и список свойств через запятую. При создании перехода можно
+							использовать как начальное, так и конечное состояние элемента. Свойство не наследуется.
+
+							Создаваемые эффекты должны быть ненавязчивыми. Не все свойства требуют плавного изменения во
+							времени, что связано с пользовательским опытом. Например, при наведении на ссылку мы хотим видеть
+							мгновенную смену цвета ссылки или цвета и стиля подчёркивания. Поэтому переходы следует
+							использовать для тех свойств, к которым действительно нужно привлечь внимание.</p>
+
+						<ul>
+							Ниже приведены несколько примеров и код к ним.
+
+
+							<li>
+
+								<span>.block-1__body {</span>
+							</li>
+							<li><span>margin: 0px 0px 40px 0px;</span></li>
+							<li> <span>width: 250px;</span></li>
+							<li><span>height: 250px;</span></li>
+							<li><span>background-color: gray;</span></li>
+							<li><span>transition-property: width;</span></li>
+							<li><span>transition-duration: 500ms;</span></li>
+							<li><span>}</span></li>
+
+							<li><span>.block-1__body:hover {</span></li>
+							<li><span>width: 270px;</span></li>
+							<li><span>background-color: #eddd2323;</span></li>
+
+
+							<li> <span>}</span></li>
+
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+		<div class="block-2">
+
+
+			<div class="block-2__container">
+
+				<div class="block-2__row">
+
+					<div class="block-2__body">
+					</div>
+
+					<div class="block-2__text text">
+
+						<div class="block-2__title title">
+							<h2>Функция перехода transition-timing-function</h2>
+						</div>
+
+						<p>
+							Свойство задаёт временную функцию, которая описывает скорость перехода объекта от одного значения к
+							другому. Если вы определяете более одного перехода для элемент, например, цвет фона элемента и его
+							положение, вы можете использовать разные функции для каждого свойства. Свойство не наследуется.
+							ease Функция по умолчанию, переход начинается медленно, разгоняется быстро и замедляется в конце.
+							Соответствует cubic-bezier(0.25,0.1,0.25,1).
+							linear Переход происходит равномерно на протяжении всего времени, без колебаний в скорости.
+							Соответствует cubic-bezier(0,0,1,1).
+							ease-in Переход начинается медленно, а затем плавно ускоряется в конце. Соответствует
+							cubic-bezier(0.42,0,1,1).
+							ease-out Переход начинается быстро и плавно замедляется в конце. Соответствует
+							cubic-bezier(0,0,0.58,1).
+							ease-in-out Переход медленно начинается и медленно заканчивается. Соответствует
+							cubic-bezier(0.42,0,0.58,1).</p>
+
+						У Евгения есть шпаргалка: https://fls.guru/csstransition.html <br>
+						animista.net/play/basic <br>
+						cubic-bezier.com
+
+
+						<ul>
+							Ниже приведены несколько пример и код:
+
+
+							<li><span>.block-2__body {</span></li>
+							<li><span>width: 250px;</span></li>
+							<li><span>height: 250px;</span></li>
+							<li> <span> background-color: gray;</span></li>
+							<li><span>margin: 0px 0px 40px 0px;</span></li>
+							<li><span>transition-timing-function: cubic-bezier(1,.02,.93,.16);</span></li>
+							<li><span>transition-duration: 2s ;</span></li>
+
+							<li> <span> }</span></li>
+
+
+
+							<li> <span>.block-2__body:hover {</span></li>
+							<li> <span> width: 200px;</span></li>
+							<li><span> height: 200px;</span></li>
+							<li><span>background-color: #23332123;</span></li>
+
+
+
+							<li><span>}</span></li>
+
+						</ul>
+
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+		<div class="block-3">
+
+
+			<div class="block-3__container">
+
+				<div class="block-3__row">
+
+					<div class="block-3__body">
+					</div>
+
+					<div class="block-3__text text">
+
+						<div class="block-3__title title">
+							<h2>transition-delay</h2>
+						</div>
+
+						<p>
+
+
+							Значения:
+							время Время задержки перехода указывается в секундах или миллисекундах.</p>
+
+						<ul>
+							Ниже приведены несколько примеров и код к ним.
+
+							<li><span>.block-3__body {</spa>
+							</li>
+							<li><span>width: 250px;</span></li>
+							<li><span>height: 250px;</span></li>
+							<li><span>background-color: gray;</span></li>
+							<li><span>margin: 0px 0px 40px 0px;</span></li>
+							<li><span>transition-delay: 1s;</span></li>
+							<il><span>}</span></il>
+
+							<li><span>.block-3__body:hover {</span></li>
+							<li><span>width: 270px;</span></li>
+							<li><span>height: 270px;</span></li>
+							<li><span>background-color: rgb(188, 246, 14);</span></li>
+							<li><span>opacity: 0.6;</span></li>
+
+							<li><span>}</span></li>
+
+
+						</ul>
+
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+
+
+
+
+
+
+
+
+		<!-- <div class="block-4">
+
+
+			<div class="block-4__container">
+
+				<div class="block-4__row">
+
+					<div class="block-4__body">
+					</div>
+
+					<div class="block-4__text text">
+
+						<div class="block-4__title title">
+							<h2>Сделать подвижне, медленное подчеркивание медленное</h2>
+						</div>
+
+						<p class="link"><a href="#"></a> LINKS </p>
+
+						<ul>
+
+
+						</ul>
+
+					</div>
+
+
+
+
+
+				</div>
+			</div>
+
+		</div>
+ -->
+
+
+
+
+
+
+
+		<div class="block-5">
+
+
+			<div class="block-5__container">
+
+				<div class="block-5__row">
+
+					<div class="block-5__body">
+					</div>
+
+					<div class="block-5__text text">
+
+						<div class="block-5__title title">
+							<h2>Сделать подвижное, медленное подчеркивание </h2>
+						</div>
+
+						<p class="link"><a href="#"></a>I AM LINKS </p> <br>
+
+
+						<ul>
+							<li><span>.link::after {</span></li>
+							<li> <span>content: "";</span></li>
+							<li> <span>position: absolute;</span></li>
+							<li> <span>bottom: 0;</span></li>
+							<li><span> width: 0%;</span></li>
+							<li><span> left: 0;</span></li>
+							<li> <span> height: 1px;</span></li>
+							<li> <span> transition: width 0.3s ease 0s;</span></li>
+							<li> <span> background-color: red;</span></li>
+							<li> <span> }</span></li>
+
+							<li> <span> .link:hover {</span></li>
+							<li> <span> color: rgb(255, 0, 238);</span></li>
+							<li> <span> }</span></li>
+
+							<li> <span> .link:hover::after{</span></li>
+							<li> <span> width: 100%;</span></li>
+							<l> <span> }</span></l>
+						</ul>
+
+
+
+						<!-- <div class="block-6">
+							<div>
+								<div class="efect-img__image">
+
+									<h2 class="efect-img__h2-title">Эффект увелечения для картинки</h2>
+
+									<img src="img/1643942826_35-abrakadabra-fun-p-fon-doroga-dlya-detei-45.jpg" alt="#">
+								</div>
+
+							</div>
+						</div> -->
+
+
+					</div>
+
+				</div>
+
+
+
+
+
+
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div class="block-6">
+			<div class="block-6__container">
+				<div class="block-6__row">
+
+					<div class="block-6__body">
+
+					</div>
+
+
+
+					<div class="block-6__text text">
+
+						<div class="block-6__title title">
+							<div class="block-6__h2">
+								<h2>Анимационное увелечения картинки</h2>
+							</div>
+						</div>
+
+						<div class="block-6__img">
+
+							<img src="img/1643942826_35-abrakadabra-fun-p-fon-doroga-dlya-detei-45.jpg" alt="#">
+
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+	</div>
+
+
+
+
+
+
+
+	<div class="page">
+		<div class="page__title title">
+			<h2>Анимация</h2>
+		</div>
+		<div class="page__block">
+
+		</div>
+	</div>
+
+	<div class="page__block">
+		<div class="block-animation">
+			<div class="block-animation__item">
+
+			</div>
+		</div>
+	</div>
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- Универсальная запись всех свойств в одной строке:
+		transition: width 0.8s ease 0s, height 0,5s ease 0.8s; -->
+
+
+
+
+
+
+
+
+</body>
+
+</html>
